@@ -95,7 +95,7 @@ def recibir_intentos():
 @app.route('/promedios', methods=['GET'])
 def obtener_promedios():
     try:
-        ruta_csv = "C:/Users/varel/Documents/pokemon/pokemon_estadisticas.csv"
+        ruta_csv = os.path.join(BASE_DIR, "pokemon_estadisticas.csv")
         df = pd.read_csv(ruta_csv)
 
         promedios = {}
