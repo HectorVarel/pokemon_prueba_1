@@ -1,0 +1,785 @@
+NOMBRE,POKEDEX,TIPO 1,TIPO 2,GENERACION,COLORES,ETAPA DE EVOLUCION,ALTURA,PESO,HABILIDAD
+bulbasaur,1.0,planta,veneno,1.0,verde - azul,1.0,0.7 m,6.9 kg,espesura
+ivysaur,2.0,planta,veneno,1.0,verde - azul,2.0,1.0 m,13.0 kg,espesura
+venusaur,3.0,planta,veneno,1.0,verde - azul,3.0,2.0 m,100.0 kg,espesura
+charmander,4.0,fuego,ninguno,1.0,rojo,1.0,0.6 m,8.5 kg,mar llamas
+charmeleon,5.0,fuego,ninguno,1.0,rojo,2.0,1.1 m,19.0 kg,mar llamas
+charizard,6.0,fuego,volador,1.0,naranja,3.0,1.7 m,90.5 kg,mar llamas
+squirtle,7.0,agua,ninguno,1.0,azul,1.0,0.5 m,9.0 kg,torrente
+wartortle,8.0,agua,ninguno,1.0,azul,2.0,1.0 m,22.5 kg,torrente
+blastoise,9.0,agua,ninguno,1.0,azul,3.0,1.6 m,85.5 kg,torrente
+caterpie,10.0,bicho,ninguno,1.0,verde,1.0,0.3 m,2.9 kg,polvo escudo
+metapod,11.0,bicho,ninguno,1.0,verde,2.0,0.7 m,9.9 kg,mudar
+butterfree,12.0,bicho,volador,1.0,blanco - morado,3.0,1.1 m,32.0 kg,ojo compuesto
+weedle,13.0,bicho,veneno,1.0,naranja,1.0,0.3 m,3.2 kg,polvo escudo
+kakuna,14.0,bicho,veneno,1.0,amarillo,2.0,0.6 m,10.0 kg,mudar
+beedrill,15.0,bicho,veneno,1.0,amarillo - negro,3.0,1.0 m,29.5 kg,enjambre
+pidgey,16.0,normal ,volador,1.0,cafe - blanco,1.0,0.3 m,1.8 kg,vista lince
+pidgeotto,17.0,normal ,volador,1.0,cafe - blanco,2.0,1.1 m,30.0 kg,vista lince
+pidgeot,18.0,normal ,volador,1.0,cafe - blanco,3.0,1.5 m,39.5 kg,vista lince
+rattata,19.0,normal ,ninguno,1.0,morado,1.0,0.3 m,9.5 kg,fuga
+raticate,20.0,normal ,ninguno,1.0,cafe - blanco,2.0,0.7 m,32.0 kg,fuga
+fearow,22.0,normal ,volador,1.0,cafe - blanco,2.0,1.2 m,25.0 kg,vista lince
+ekans,23.0,veneno,ninguno,1.0,morado,1.0,2.0 m,12.0 kg,intimidacion
+arbok,24.0,veneno,ninguno,1.0,morado,2.0,3.5 m,62.0 kg,intimidacion
+pikachu,25.0,electrico,ninguno,1.0,amarillo,2.0,0.4 m,6.0 kg,electricidad estatica
+raichu,26.0,electrico,ninguno,1.0,naranja,3.0,0.8 m,30.0 kg,electricidad estatica
+sandshrew,27.0,tierra,ninguno,1.0,cafe,1.0,0.6 m,12.0 kg,velo arena
+sandslash,28.0,tierra,ninguno,1.0,cafe,2.0,1.0 m,55.0 kg,velo arena
+nidoranHembra,29.0,veneno,ninguno,1.0,azul,1.0,0.4 m,9.0 kg,punto toxico
+nidorina,30.0,veneno,ninguno,1.0,azul,2.0,0.7 m,19.5 kg,punto toxico
+nidoqueen,31.0,veneno,tierra,1.0,azul,3.0,0.9 m,20.0 kg,punto toxico
+nidoranMacho,32.0,veneno,ninguno,1.0,morado,1.0,1.4 m,62.0 kg,punto toxico
+nidorino,33.0,veneno,ninguno,1.0,morado,2.0,0.8 m,9.0 kg,punto toxico
+nidoking,34.0,veneno,tierra,1.0,morado,3.0,1.4 m,19.5 kg,punto toxico
+clefairy,35.0,hada,ninguno,1.0,rosa,2.0,0.6 m,20.0 kg,gran encanto
+clefable,36.0,hada,ninguno,1.0,rosa,3.0,1.3 m,40.0 kg,gran encanto
+vulpix,37.0,fuego,ninguno,1.0,rojo,1.0,0.6 m,5.5 kg,absorbe fuego
+ninetales,38.0,fuego,ninguno,1.0,blanco,2.0,1.1 m,19.9 kg,absorbe fuego
+jigglypuff,39.0,normal ,hada,1.0,rosa,2.0,0.5 m,40.0 kg,gran encanto
+wigglytuff,40.0,normal ,hada,1.0,rosa,3.0,1.2 m,12.0 kg,gran encanto
+zubat,41.0,veneno,volador,1.0,morado - azul,1.0,0.8 m,55.0 kg,foco interno
+golbat,42.0,veneno,volador,1.0,morado - azul,2.0,1.6 m,6.5 kg,foco interno
+oddish,43.0,planta,veneno,1.0,azul - verde,1.0,0.5 m,75.0 kg,clorofila
+gloom,44.0,planta,veneno,1.0,azul - rojo,2.0,0.8 m,5.4 kg,clorofila
+vileplume,45.0,planta,veneno,1.0,azul - rojo,3.0,1.2 m,18.6 kg,clorofila
+paras,46.0,bicho,planta,1.0,rojo,1.0,0.3 m,130.0 kg,efecto espora
+parasect,47.0,bicho,planta,1.0,rojo,2.0,1.0 m,1.0 kg,efecto espora
+venonat,48.0,bicho,veneno,1.0,morado,1.0,1.0 m,34.0 kg,ojo compuesto
+venomoth,49.0,bicho,veneno,1.0,morado - blanco,2.0,1.5 m,54.5 kg,polvo escudo
+diglett,50.0,tierra,ninguno,1.0,cafe,1.0,0.2 m,32.0 kg,trampa arena
+dugtrio,51.0,tierra,ninguno,1.0,cafe,2.0,0.7 m,33.5 kg,aclimatacion
+meowth,52.0,normal,ninguno,1.0,blanco,1.0,0.4 m,76.5 kg,recogida
+persian,53.0,normal,ninguno,1.0,blanco,2.0,1.0 m,8.0 kg,experto
+psyduck,54.0,agua,ninguno,1.0,amarillo,1.0,0.8 m,35.0 kg,aclimatacion
+golduck,55.0,agua,ninguno,1.0,azul,2.0,1.7 m,19.6 kg,humedad
+mankey,56.0,lucha,ninguno,1.0,blanco - cafe,1.0,0.5 m,62.0 kg,espiritu vital
+primeape,57.0,lucha,ninguno,1.0,blanco - cafe,2.0,1.0 m,20.0 kg,espiritu vital
+growlithe,58.0,fuego,ninguno,1.0,naranja - negro,1.0,0.7 m,70.0 kg,intimidacion
+arcanine,59.0,fuego,ninguno,1.0,naranja - negro,2.0,1.9 m,19.0 kg,intimidacion
+poliwag,60.0,agua,ninguno,1.0,azul - blanco,1.0,0.6 m,155.0 kg,absorbe agua
+poliwhirl,61.0,agua,ninguno,1.0,azul - blanco,2.0,1.0 m,12.0 kg,absorbe agua
+poliwrath,62.0,agua,lucha,1.0,azul - blanco,3.0,1.3 m,19.5 kg,absorbe agua
+abra,63.0,psiquico,ninguno,1.0,amarillo,1.0,0.9 m,54.0 kg,sincronia
+kadabra,64.0,psiquico,ninguno,1.0,amarillo,2.0,1.3 m,48.0 kg,sincronia
+alakazam,65.0,psiquico,ninguno,1.0,amarillo,3.0,1.5 m,56.0 kg,sincronia
+machop,66.0,lucha,ninguno,1.0,gris,1.0,0.8 m,130.0 kg,agallas
+machoke,67.0,lucha,ninguno,1.0,gris,2.0,1.5 m,43.0 kg,agallas
+machamp,68.0,lucha,ninguno,1.0,gris,3.0,1.6 m,45.0 kg,agallas
+bellsprout,69.0,planta,veneno,1.0,amarillo - verde,1.0,0.7 m,7.0 kg,clorofila
+weepinbell,70.0,planta,veneno,1.0,amarillo - verde,2.0,1.0 m,20.0 kg,clorofila
+victreebel,71.0,planta,veneno,1.0,amarillo - verde,3.0,1.7 m,105.0 kg,clorofila
+tentacool,72.0,agua,veneno,1.0,azul,1.0,0.9 m,4.0 kg,cuerpo puro
+tentacruel,73.0,agua,veneno,1.0,azul,2.0,1.6 m,55.0 kg,cuerpo puro
+geodude,74.0,roca,tierra,1.0,cafe,1.0,0.4 m,20.0 kg,cabeza roca
+graveler,75.0,roca,tierra,1.0,cafe,2.0,1.0 m,105.0 kg,cabeza roca
+golem,76.0,roca,tierra,1.0,cafe,3.0,1.4 m,300.0 kg,cabeza roca
+ponyta,77.0,fuego,ninguno,1.0,blanco - rojo,1.0,1.0 m,30.0 kg,fuga
+rapidash,78.0,fuego,ninguno,1.0,blanco - rojo,2.0,1.7 m,95.0 kg,absorbe fuego
+slowpoke,79.0,agua,psiquico,1.0,rosa,1.0,1.2 m,36.0 kg,despiste
+slowbro,80.0,agua,psiquico,1.0,rosa,2.0,1.6 m,78.5 kg,despiste
+magnemite,81.0,electrico,acero,1.0,gris,1.0,0.3 m,6.0 kg,magnetismo
+magneton,82.0,electrico,acero,1.0,gris,2.0,1.0 m,60.0 kg,magnetismo
+farfetchd,83.0,normal,volador,1.0,cafe,1.0,0.8 m,15.0 kg,vista lince
+doduo,84.0,normal,volador,1.0,cafe,1.0,1.4 m,39.2 kg,vista lince
+dodrio,85.0,normal,volador,1.0,cafe,2.0,1.8 m,85.2 kg,pararrayos
+seel,86.0,agua,ninguno,1.0,blanco,1.0,1.1 m,90.0 kg,cuerpo llama
+dewgong,87.0,agua,hielo,1.0,blanco,2.0,1.7 m,120.0 kg,cuerpo llama
+grimer,88.0,veneno,ninguno,1.0,morado,1.0,0.9 m,30.0 kg,levitacion
+muk,89.0,veneno,ninguno,1.0,morado,1.0,1.2 m,30.0 kg,robustez
+shellder,90.0,agua,ninguno,1.0,morado,1.0,0.3 m,4.0 kg,robustez
+cloyster,91.0,agua,hielo,1.0,morado,2.0,1.5 m,132.5 kg,caparazon
+gastly,92.0,fantasma,veneno,1.0,morado,1.0,1.3 m,0.1 kg,caparazon
+haunter,93.0,fantasma,veneno,1.0,morado,2.0,1.6 m,0.1 kg,caparazon
+gengar,94.0,fantasma,veneno,1.0,morado,3.0,1.5 m,40.5 kg,levitacion
+onix,95.0,roca,tierra,1.0,gris,1.0,8.8 m,210.0 kg,cabeza roca
+drowzee,96.0,psiquico,ninguno,1.0,amarillo - cafe,1.0,1.0 m,32.4 kg,insomnio
+hypno,97.0,psiquico,ninguno,1.0,amarillo - blanco,2.0,1.6 m,75.6 kg,insomnio
+krabby,98.0,agua,ninguno,1.0,rojo - blanco,1.0,0.6 m,6.5 kg,hipercorte
+kingler,99.0,agua,ninguno,1.0,rojo - blanco,2.0,1.3 m,60.0 kg,hipercorte
+voltorb,100.0,electrico,ninguno,1.0,rojo - blanco,1.0,0.5 m,10.4 kg,pararrayos
+electrode,101.0,electrico,ninguno,1.0,rojo - blanco,2.0,1.1 m,66.6 kg,pararrayos
+exeggcute,102.0,planta,psiquico,1.0,rosa,1.0,0.4 m,2.5 kg,clorofila
+exeggutor,103.0,planta,psicquico,1.0,cafe - verde,2.0,2.0 m,120.0 kg,clorofila
+cubone,104.0,tierra,ninguno,1.0,cafe - blanco,1.0,0.4 m,6.5 kg,cabeza roca
+marowak,105.0,tierra,ninguno,1.0,cafe - blanco,2.0,1.1 m,45.0 kg,cabeza roca
+hitmonlee,106.0,lucha,ninguno,1.0,cafe,2.0,1.5 m,49.8 kg,flexibilidad
+hitmonchan,107.0,lucha,ninguno,1.0,cafe - morado,2.0,1.4 m,50.2 kg,flexibilidad
+lickitung,108.0,normal,ninguno,1.0,rosa,1.0,1.2 m,65.5 kg,ritmo propio
+koffing,109.0,veneno,ninguno,1.0,morado,1.0,0.6 m,1.0 kg,despiste
+weezing,110.0,veneno,ninguno,1.0,morado,2.0,1.2 m,9.5 kg,cuerpo llama
+rhyhorn,111.0,tierra,roca,1.0,gris,1.0,1.0 m,115.0 kg,cuerpo llama
+rhydon,112.0,tierra,roca,1.0,gris,2.0,1.9 m,120.0 kg,pararrayos
+chansey,113.0,normal,ninguno,1.0,rosa,2.0,1.1 m,34.6 kg,cura natural
+tangela,114.0,planta,ninguno,1.0,morado,1.0,2.0 m,35.0 kg,clorofila
+kangaskhan,115.0,normal,ninguno,1.0,cafe,1.0,2.2 m,80.0 kg,madrugar
+horsea,116.0,agua,ninguno,1.0,azul,1.0,0.4 m,8.0 kg,nado rapido
+seadra,117.0,agua,ninguno,1.0,azul,2.0,1.2 m,25.0 kg,nado rapido
+goldeen,118.0,agua,ninguno,1.0,blanco - rojo,1.0,0.6 m,15.0 kg,nado rapido
+seaking,119.0,agua,ninguno,1.0,rojo - negro,2.0,1.3 m,39.0 kg,nado rapido
+staryu,120.0,agua,ninguno,1.0,cafe - amarillo,1.0,0.8 m,34.5 kg,velo agua
+starmie,121.0,agua,psiquico,1.0,morado - amarillo,2.0,1.1 m,80.0 kg,velo agua
+mr_mime,122.0,psiquico,hada,1.0,blanco - rosa,2.0,1.3 m,54.5 kg,iluminacion
+scyther,123.0,bicho,volador,1.0,verde - blanco,1.0,1.5 m,56.0 kg,iluminacion
+jynx,124.0,hielo,psiquico,1.0,rojo - negro,2.0,1.4 m,40.6 kg,despiste
+electabuzz,125.0,electrico,ninguno,1.0,amarillo - negro,2.0,1.1 m,30.0 kg,despiste
+magmar,126.0,fuego,ninguno,1.0,rojo - amarillo,2.0,1.3 m,44.5 kg,cuerpo llama
+pinsir,127.0,bicho,ninguno,1.0,cafe,1.0,1.5 m,55.0 kg,hipercorte
+tauros,128.0,normal,ninguno,1.0,cafe,1.0,1.4 m,88.4 kg,intimidacion
+magikarp,129.0,agua,ninguno,1.0,rojo,1.0,0.9 m,10.0 kg,nado rapido
+gyarados,130.0,agua,volador,1.0,azul,2.0,6.5 m,235.0 kg,nado rapido
+lapras,131.0,agua,hielo,1.0,azul,1.0,2.5 m,220.0 kg,absorbe agua
+ditto,132.0,normal,ninguno,1.0,morado,1.0,0.3 m,4.0 kg,absorbe elec
+eevee,133.0,normal,ninguno,1.0,cafe,1.0,0.3 m,6.5 kg,aclimatacion
+vaporeon,134.0,agua,ninguno,1.0,azul,2.0,1.0 m,29.0 kg,escama especial
+jolteon,135.0,electrico,ninguno,1.0,amarillo - blanco,2.0,0.8 m,24.5 kg,escama especial
+flareon,136.0,fuego,ninguno,1.0,rojo - blanco,2.0,0.9 m,25.0 kg,absorbe fuego
+porygon,137.0,normal,ninguno,1.0,rosa - azul,1.0,0.8 m,36.5 kg,absorbe fuego
+omanyte,138.0,roca,agua,1.0,blanco - azul,1.0,0.4 m,7.5 kg,absorbe fuego
+omastar,139.0,roca,agua,1.0,blanco - azul,2.0,1.6 m,35.0 kg,nado rapido
+kabuto,140.0,roca,agua,1.0,cafe,1.0,0.5 m,11.5 kg,nado rapido
+kabutops,141.0,roca,agua,1.0,cafe,1.0,1.3 m,40.5 kg,armadura batalla
+snorlax,143.0,normal,ninguno,1.0,verde - blanco,2.0,2.1 m,460.0 kg,sebo
+articuno,144.0,hielo,volador,1.0,azul - blanco,1.0,1.7 m,55.4 kg,presion
+zapdos,145.0,electrico,volador,1.0,amarillo,1.0,1.6 m,52.6 kg,presion
+moltres,146.0,fuego,volador,1.0,rojo - amarillo,1.0,2.0 m,60.0 kg,presion
+dratini,147.0,dragon,ninguno,1.0,azul - blanco,1.0,1.8 m,3.3 kg,mudar
+dragonair,148.0,dragon,ninguno,1.0,azul - blanco,2.0,4.0 m,16.5 kg,mudar
+dragonite,149.0,dragon,volador,1.0,naranja,3.0,2.2 m,210.0 kg,foco interno
+mewtwo,150.0,psiquico,ninguno,1.0,morado,1.0,2.0 m,122.0 kg,presion
+mew,151.0,psiquico,ninguno,1.0,rosa,1.0,0.4 m,4.0 kg,sincronia
+chikorita,152.0,planta,ninguno,2.0,verde,1.0,0.9 m,6.4 kg,espesura
+bayleef,153.0,planta,ninguno,2.0,amarillo - verde,2.0,1.2 m,15.8 kg,espesura
+meganium,154.0,planta,ninguno,2.0,verde,3.0,1.8 m,100.5 kg,espesura
+cyndaquil,155.0,fuego,ninguno,2.0,amarillo - verde,1.0,0.5 m,7.9 kg,mar llamas
+quilava,156.0,fuego,ninguno,2.0,amarillo - verde,2.0,0.9 m,19.0 kg,mar llamas
+typhlosion,157.0,fuego,ninguno,2.0,amarillo - verde,3.0,1.7 m,79.5 kg,mar llamas
+totodile,158.0,agua,ninguno,2.0,azul,1.0,0.6 m,9.5 kg,torrente
+croconaw,159.0,agua,ninguno,2.0,azul,2.0,1.1 m,25.0 kg,torrente
+feraligatr,160.0,agua,ninguno,2.0,azul,3.0,2.3 m,88.8 kg,torrente
+sentret,161.0,normal,ninguno,2.0,cafe,1.0,0.8 m,6.0 kg,fuga
+furret,162.0,normal,ninguno,2.0,cafe - blanco,2.0,1.8 m,32.5 kg,vista lince
+hoothoot,163.0,normal,volador,2.0,cafe,1.0,0.7 m,21.2 kg,insomnio
+noctowl,164.0,normal,volador,2.0,cafe,2.0,1.6 m,40.8 kg,insomnio
+ledyba,165.0,bicho,volador,2.0,rojo - negro,1.0,1.0 m,10.8 kg,levitacion
+ledian,166.0,bicho,volador,2.0,rojo - negro,2.0,1.4 m,35.6 kg,enjambre
+spinarak,167.0,bicho,veneno,2.0,verde - negro,1.0,0.5 m,8.5 kg,insomnio
+ariados,168.0,bicho,veneno,2.0,rojo,2.0,1.1 m,33.5 kg,enjambre
+crobat,169.0,veneno,volador,2.0,morado - azul,3.0,1.8 m,75.0 kg,foco interno
+chinchou,170.0,agua,electrico,2.0,amarillo - azul,1.0,1.2 m,12.0 kg,absorbe elec
+lanturn,171.0,agua,electrico,2.0,amarillo - azul,2.0,1.2 m,22.5 kg,absorbe elec
+pichu,172.0,electrico,ninguno,2.0,amarillo - negro,1.0,0.3 m,2.0 kg,electricidad estatica
+cleffa,173.0,hada,ninguno,2.0,rosa,1.0,0.6 m,3.0 kg,gran encanto
+igglybuff,174.0,normal,hada,2.0,rosa,2.0,0.3 m,1.0 kg,gran encanto
+togepi,175.0,hada,ninguno,2.0,blanco,1.0,0.3 m,1.5 kg,hustismo
+togetic,176.0,hada,volador,2.0,blanco,2.0,1.5 m,3.2 kg,cura natural
+natu,177.0,psiquico,volador,2.0,verde,1.0,0.2 m,2.0 kg,sincronia
+xatu,178.0,psiquico,volador,2.0,blanco - verde,2.0,1.5 m,15.0 kg,sincronia
+mareep,179.0,electrico,ninguno,2.0,azul - blanco,1.0,0.6 m,7.8 kg,electricidad estatica
+flaaffy,180.0,electrico,ninguno,2.0,rosa - blanco,2.0,0.8 m,61.5 kg,electricidad estatica
+ampharos,181.0,electrico,ninguno,2.0,amarillo,3.0,1.4 m,61.5 kg,electricidad estatica
+bellossom,182.0,planta,ninguno,2.0,verde - amarillo,3.0,0.4 m,5.8 kg,clorofila
+marill,183.0,agua,hada,2.0,azul - blanco,2.0,0.4 m,8.5 kg,sebo
+azumarill,184.0,agua,hada,2.0,azul - blanco,3.0,0.8 m,28.5 kg,velo agua
+sudowoodo,185.0,roca,ninguno,2.0,cafe,2.0,1.2 m,38.0 kg,intimidacion
+politoed,186.0,agua,ninguno,2.0,verde - amarillo,3.0,1.1 m,54.0 kg,absorbe agua
+hoppip,187.0,planta,volador,2.0,rosa - verde,1.0,0.4 m,0.5 kg,cabeza roca
+skiploom,188.0,planta,volador,2.0,verde - amarillo,2.0,0.6 m,1.0 kg,clorofila
+jumpluff,189.0,planta,volador,2.0,azul - blanco,3.0,0.8 m,3.0 kg,clorofila
+aipom,190.0,normal,ninguno,2.0,morado - amarillo,1.0,0.8 m,20.3 kg,flexibilidad
+sunkern,191.0,planta,ninguno,2.0,amarillo - cafe,1.0,0.3 m,1.8 kg,clorofila
+sunflora,192.0,planta,ninguno,2.0,verde - amarillo,2.0,2.0 m,8.5 kg,clorofila
+yanma,193.0,bicho,volador,2.0,rojo - verde,1.0,1.2 m,38.0 kg,aceleracion
+wooper,194.0,agua,tierra,2.0,azul,1.0,0.4 m,8.5 kg,humedad
+quagsire,195.0,agua,tierra,2.0,azul,2.0,1.0 m,75.0 kg,absorbe agua
+espeon,196.0,psiquico,ninguno,2.0,morado,2.0,0.9 m,26.5 kg,sincronia
+umbreon,197.0,siniestro,ninguno,2.0,negro,2.0,1.0 m,27.0 kg,sincronia
+murkrow,198.0,siniestro,volador,2.0,negro,1.0,0.5 m,2.1 kg,insomnio
+slowking,199.0,agua,psiquico,2.0,rosa,2.0,2.0 m,34.5 kg,despiste
+misdreavus,200.0,fantasma,ninguno,2.0,morado,1.0,0.7 m,1.0 kg,levitacion
+unown,201.0,psiquico,ninguno,2.0,negro,1.0,0.5 m,5.0 kg,sincronia
+wobbuffet,202.0,psiquico,ninguno,2.0,azul,2.0,1.3 m,28.5 kg,trampa sombra
+girafarig,203.0,normal,psiquico,2.0,amarillo - negro,1.0,1.5 m,41.5 kg,foco interno
+pineco,204.0,bicho,ninguno,2.0,verde,1.0,0.6 m,2.1 kg,robustez
+forretress,205.0,bicho,acero,2.0,rojo - gris,2.0,1.2 m,125.8 kg,robustez
+dunsparce,206.0,normal,ninguno,2.0,amarillo - azul,1.0,1.5 m,14.0 kg,cura natural
+gligar,207.0,tierra,volador,2.0,morado - azul,1.0,1.1 m,64.8 kg,hipercorte
+steelix,208.0,acero,tierra,2.0,gris,2.0,9.2 m,400.0 kg,cabeza roca
+snubbull,209.0,hada,ninguno,2.0,rosa,1.0,0.6 m,7.8 kg,intimidacion
+granbull,210.0,hada,ninguno,2.0,morado,2.0,1.5 m,40.8 kg,intimidacion
+qwilfish,211.0,agua,veneno,2.0,azul - amarillo,1.0,0.5 m,3.8 kg,punto toxico
+scizor,212.0,bicho,acero,2.0,rojo,2.0,1.8 m,118.0 kg,enjambre
+shuckle,213.0,bicho,roca,2.0,rojo - amarillo,1.0,0.6 m,20.5 kg,robustez
+heracross,214.0,bicho,lucha,2.0,azul,1.0,1.5 m,54.0 kg,agallas
+sneasel,215.0,siniestro,hielo,2.0,negro,1.0,0.9 m,28.0 kg,vista lince
+teddiursa,216.0,normal,ninguno,2.0,cafe,1.0,0.6 m,8.8 kg,recogida
+ursaring,217.0,normal,ninguno,2.0,cafe,2.0,1.8 m,125.8 kg,agallas
+slugma,218.0,fuego,ninguno,2.0,rojo,1.0,0.7 m,35.0 kg,cuerpo llama
+magcargo,219.0,fuego,roca,2.0,rojo - negro,2.0,0.8 m,55.0 kg,cuerpo llama
+swinub,220.0,hielo,tierra,2.0,cafe,1.0,0.4 m,6.5 kg,despiste
+piloswine,221.0,hielo,tierra,2.0,cafe,2.0,1.1 m,55.8 kg,despiste
+corsola,222.0,agua,roca,2.0,rosa - blanco,1.0,0.6 m,5.0 kg,hustismo
+remoraid,223.0,agua,ninguno,2.0,gris,1.0,0.6 m,12.0 kg,nado rapido
+octillery,224.0,agua,ninguno,2.0,rojo,2.0,1.2 m,28.5 kg,ventosas
+delibird,225.0,hielo,volador,2.0,rojo - blanco,1.0,0.9 m,16.0 kg,entrega
+mantine,226.0,agua,volador,2.0,azul - blanco,2.0,2.1 m,220.0 kg,espiritu vital
+skarmory,227.0,acero,volador,2.0,gris,1.0,1.7 m,50.5 kg,caparazon
+houndour,228.0,siniestro,fuego,2.0,negro,1.0,0.6 m,10.8 kg,madrugar
+houndoom,229.0,siniestro,fuego,2.0,negro,2.0,1.9 m,35.0 kg,absorbe fuego
+kingdra,230.0,agua,dragon,2.0,azul,3.0,1.8 m,152.0 kg,nado rapido
+phanpy,231.0,tierra,ninguno,2.0,azul,1.0,0.5 m,33.5 kg,recogida
+porygon2,233.0,normal,ninguno,2.0,azul - rosa,2.0,0.6 m,36.5 kg,calco
+stantler,234.0,normal,ninguno,2.0,cafe,1.0,1.4 m,71.2 kg,intimidacion
+smeargle,235.0,normal,ninguno,2.0,blanco,1.0,1.2 m,58.0 kg,experto
+tyrogue,236.0,lucha,ninguno,2.0,rosa - cafe,1.0,0.7 m,21.0 kg,agallas
+hitmontop,237.0,lucha,ninguno,2.0,azul - cafe,2.0,1.4 m,48.0 kg,cuerpo llama
+smoochum,238.0,hielo,psiquico,2.0,rosa - amarillo,1.0,0.4 m,17.8 kg,despiste
+elekid,239.0,electrico,ninguno,2.0,amarillo - negro,1.0,0.6 m,30.0 kg,electricidad estatica
+magby,240.0,fuego,ninguno,2.0,rojo,1.0,0.7 m,44.5 kg,cuerpo llama
+miltank,241.0,normal,ninguno,2.0,rosa,1.0,1.2 m,75.5 kg,sebo
+blissey,242.0,normal,ninguno,2.0,rosa - blanco,3.0,3.5 m,46.8 kg,cura natural
+raikou,243.0,electrico,ninguno,2.0,amarillo,1.0,2.0 m,177.0 kg,presion
+entei,244.0,fuego,ninguno,2.0,cafe,1.0,2.1 m,198.0 kg,presion
+suicune,245.0,agua,ninguno,2.0,azul,1.0,2.0 m,187.0 kg,presion
+larvitar,246.0,roca,tierra,2.0,verde,1.0,0.6 m,72.0 kg,agallas
+pupitar,247.0,roca,tierra,2.0,gris,2.0,1.2 m,152.0 kg,mudar
+tyranitar,248.0,roca,siniestro,2.0,verde,3.0,2.0 m,202.0 kg,trampa arena
+lugia,249.0,psiquico,volador,2.0,blanco - azul,1.0,5.2 m,216.0 kg,presion
+hooh,250.0,fuego,volador,2.0,rojo,1.0,3.8 m,199.0 kg,regeneracion
+celebi,251.0,psiquico,planta,2.0,verde,1.0,0.6 m,5.0 kg,cura natural
+treecko,252.0,planta,ninguno,3.0,verde,1.0,0.5 m,5.0 kg,espesura
+grovyle,253.0,planta,ninguno,3.0,verde,2.0,0.9 m,21.6 kg,espesura
+sceptile,254.0,planta,ninguno,3.0,verde,3.0,1.7 m,52.2 kg,espesura
+torchic,255.0,fuego,ninguno,3.0,naranja,1.0,0.5 m,2.5 kg,mar llamas
+combusken,256.0,fuego,lucha,3.0,amarillo - naranja,2.0,0.9 m,30.5 kg,mar llamas
+blaziken,257.0,fuego,lucha,3.0,rojo,3.0,1.9 m,52.0 kg,mar llamas
+mudkip,258.0,agua,ninguno,3.0,azul,1.0,0.4 m,7.6 kg,torrente
+marshtomp,259.0,agua,tierra,3.0,azul,2.0,0.7 m,28.0 kg,torrente
+swampert,260.0,agua,tierra,3.0,azul,3.0,1.5 m,81.9 kg,torrente
+poochyena,261.0,siniestro,ninguno,3.0,gris - negro,1.0,0.5 m,13.6 kg,fuga
+mightyena,262.0,siniestro,ninguno,3.0,gris - negro,2.0,1.0 m,37.0 kg,intimidacion
+zigzagoon,263.0,normal,ninguno,3.0,cafe - blanco,1.0,0.4 m,17.3 kg,recogida
+linoone,264.0,normal,ninguno,3.0,cafe - blanco,2.0,0.5 m,32.5 kg,recogida
+wurmple,265.0,bicho,ninguno,3.0,rojo - blanco,1.0,0.3 m,3.6 kg,polvo escudo
+silcoon,266.0,bicho,ninguno,3.0,blanco,2.0,0.6 m,10.0 kg,mudar
+beautifly,267.0,bicho,volador,3.0,,3.0,1.0 m,28.4 kg,ojo compuesto
+cascoon,268.0,bicho,ninguno,3.0,rosa,2.0,0.7 m,11.5 kg,polvo escudo
+dustox,269.0,bicho,veneno,3.0,verde - morado,3.0,1.2 m,31.6 kg,mudar
+lotad,270.0,agua,ninguno,3.0,verde - azul,1.0,0.5 m,2.6 kg,nado rapido
+lombre,271.0,agua,planta,3.0,verde,2.0,1.2 m,32.5 kg,absorbe agua
+ludicolo,272.0,agua,planta,3.0,amarillo - verde,3.0,1.5 m,55.0 kg,absorbe agua
+seedot,273.0,planta,ninguno,3.0,cafe,1.0,0.5 m,4.0 kg,clorofila
+nuzleaf,274.0,planta,siniestro,3.0,cafe,2.0,1.0 m,27.8 kg,clorofila
+shiftry,275.0,planta,siniestro,3.0,cafe - blanco,3.0,1.3 m,59.6 kg,clorofila
+taillow,276.0,normal,volador,3.0,negro,1.0,0.3 m,2.3 kg,agallas
+swellow,277.0,normal,volador,3.0,negro,2.0,0.7 m,23.6 kg,agallas
+wingull,278.0,agua,volador,3.0,blanco - azul,1.0,1.2 m,28.0 kg,vista lince
+pelipper,279.0,agua,volador,3.0,blanco - azul,2.0,1.5 m,30.0 kg,intimidacion
+ralts,280.0,psiquico,ninguno,3.0,blanco - verde,1.0,0.4 m,6.6 kg,sincronia
+kirlia,281.0,psiquico,ninguno,3.0,blanco - verde,2.0,0.8 m,19.6 kg,sincronia
+gardevoir,282.0,psiquico,ninguno,3.0,blanco - verde,3.0,1.6 m,48.4 kg,calco
+masquerain,284.0,bicho,volador,3.0,blanco,2.0,1.0 m,3.8 kg,intimidacion
+shroomish,285.0,planta,ninguno,3.0,verde - amarillo,1.0,0.4 m,4.5 kg,efecto espora
+breloom,286.0,planta,lucha,3.0,verde - amarillo,2.0,1.2 m,39.0 kg,efecto espora
+slakoth,287.0,normal,ninguno,3.0,beige,1.0,0.8 m,130.0 kg,pereza
+vigoroth,288.0,normal,ninguno,3.0,blanco,2.0,1.0 m,46.5 kg,pereza
+slaking,289.0,normal,ninguno,3.0,cafe,3.0,2.0 m,130.0 kg,pereza
+nincada,290.0,bicho,tierra,3.0,blanco,1.0,0.5 m,5.5 kg,ojo compuesto
+ninjask,291.0,bicho,volador,3.0,negro - blanco,2.0,0.8 m,12.0 kg,aceleracion
+shedinja,292.0,bicho,fantasma,3.0,cafe,1.0,0.8 m,1.2 kg,mudar
+whismur,293.0,normal,ninguno,3.0,rosa,1.0,0.8 m,40.5 kg,insonorizar
+loudred,294.0,normal,ninguno,3.0,morado,2.0,1.5 m,84.0 kg,insonorizar
+exploud,295.0,normal,ninguno,3.0,morado,3.0,2.3 m,136.0 kg,sebo
+makuhita,296.0,lucha,ninguno,3.0,amarillo,1.0,1.0 m,86.4 kg,agallas
+hariyama,297.0,lucha,ninguno,3.0,blanco - azul,2.0,2.5 m,250.0 kg,agallas
+azurill,298.0,normal,ninguno,3.0,azul,1.0,0.2 m,0.6 kg,velo agua
+nosepass,299.0,roca,ninguno,3.0,azul,1.0,1.0 m,95.0 kg,robustez
+skitty,300.0,normal,ninguno,3.0,rosa - beige,1.0,0.6 m,2.3 kg,gran encanto
+delcatty,301.0,normal,ninguno,3.0,morado - beige,2.0,1.1 m,11.0 kg,normalidad
+sableye,302.0,siniestro,fantasma,3.0,morado,1.0,0.5 m,11.0 kg,vista lince
+mawile,303.0,acero,ninguno,3.0,amarillo - negro,1.0,0.5 m,11.5 kg,hipercorte
+aron,304.0,acero,roca,3.0,gris,1.0,0.4 m,60.0 kg,cabeza roca
+lairon,305.0,acero,roca,3.0,negro - gris,2.0,0.6 m,120.0 kg,cabeza roca
+aggron,306.0,acero,roca,3.0,negro - gris,3.0,1.1 m,360.0 kg,cabeza roca
+meditite,307.0,lucha,psiquico,3.0,blanco - azul,1.0,0.6 m,13.2 kg,fuerza pura
+medicham,308.0,lucha,psiquico,3.0,blanco - rosa,2.0,1.2 m,55.8 kg,fuerza pura
+electrike,309.0,electrico,ninguno,3.0,verde - amarillo,1.0,0.6 m,15.2 kg,electricidad estatica
+manectric,310.0,electrico,ninguno,3.0,azul - amarillo,2.0,1.5 m,40.2 kg,electricidad estatica
+plusle,311.0,electrico,ninguno,3.0,amarillo - rojo,1.0,0.6 m,2.0 kg,mas
+minun,312.0,electrico,ninguno,3.0,amarillo - azul,1.0,0.5 m,2.0 kg,menos
+volbeat,313.0,bicho,ninguno,3.0,negro - azul,1.0,0.6 m,17.7 kg,enjambre
+illumise,314.0,bicho,ninguno,3.0,negro - azul,1.0,0.6 m,9.6 kg,despiste
+roselia,315.0,planta,veneno,3.0,verde,1.0,0.7 m,20.4 kg,cura natural
+gulpin,316.0,veneno,ninguno,3.0,verde,1.0,0.4 m,17.2 kg,baba
+swalot,317.0,veneno,ninguno,3.0,morado,2.0,1.7 m,80.0 kg,baba
+carvanha,318.0,agua,siniestro,3.0,rojo - azul,1.0,0.8 m,20.8 kg,piel tosca
+sharpedo,319.0,agua,siniestro,3.0,azul,2.0,1.8 m,88.8 kg,piel tosca
+wailmer,320.0,agua,ninguno,3.0,azul - blanco,1.0,2.0 m,87.0 kg,velo agua
+wailord,321.0,agua,ninguno,3.0,azul - blanco,2.0,14.0 m,398.0 kg,velo agua
+numel,322.0,fuego,tierra,3.0,amarillo,1.0,0.7 m,68.0 kg,despiste
+camerupt,323.0,fuego,tierra,3.0,rojo,2.0,1.9 m,320.0 kg,roca solida
+torkoal,324.0,fuego,ninguno,3.0,rojo - cafe,1.0,0.5 m,49.4 kg,humo blanco
+spoink,325.0,psiquico,ninguno,3.0,gris - rosa,1.0,0.7 m,53.6 kg,velo agua
+grumpig,326.0,psiquico,ninguno,3.0,morado - negro,2.0,0.9 m,120.0 kg,sebo
+spinda,327.0,normal,ninguno,3.0,beige - rosa,1.0,1.1 m,5.0 kg,ritmo propio
+trapinch,328.0,tierra,ninguno,3.0,rojo,1.0,0.7 m,15.0 kg,trampa arena
+vibrava,329.0,tierra,dragon,3.0,verde,2.0,1.4 m,45.0 kg,trampa arena
+flygon,330.0,tierra,dragon,3.0,verde,3.0,2.0 m,82.0 kg,levitacion
+cacnea,331.0,planta,ninguno,3.0,verde,1.0,0.4 m,3.6 kg,velo arena
+cacturne,332.0,planta,siniestro,3.0,verde,2.0,1.3 m,77.4 kg,velo arena
+swablu,333.0,normal,volador,3.0,azul - blanco,1.0,0.4 m,1.2 kg,aclimatacion
+altaria,334.0,dragon,volador,3.0,azul - blanco,2.0,1.1 m,20.6 kg,aclimatacion
+zangoose,335.0,normal,ninguno,3.0,rojo - blanco,1.0,1.3 m,55.5 kg,garra toxica
+seviper,336.0,veneno,ninguno,3.0,azul,1.0,2.7 m,52.5 kg,mudar
+lunatone,337.0,roca,psiquico,3.0,beige,1.0,1.0 m,166.0 kg,levitacion
+solrock,338.0,roca,psiquico,3.0,naranja - amarillo,1.0,1.0 m,95.0 kg,levitacion
+barboach,339.0,agua,tierra,3.0,blanco - azul,1.0,0.4 m,2.0 kg,despiste
+whiscash,340.0,agua,tierra,3.0,azul,2.0,0.9 m,23.6 kg,anticipacion
+corphish,341.0,agua,ninguno,3.0,rojo,1.0,0.6 m,11.5 kg,hipercorte
+crawdaunt,342.0,agua,ninguno,3.0,rojo,2.0,1.1 m,32.7 kg,caparazon
+baltoy,343.0,tierra,psiquico,3.0,beige,1.0,0.5 m,21.5 kg,levitacion
+claydol,344.0,tierra,psiquico,3.0,negro,2.0,1.9 m,76.3 kg,levitacion
+lileep,345.0,roca,planta,3.0,morado - rosa,1.0,0.6 m,60.8 kg,absorbe agua
+cradily,346.0,roca,planta,3.0,verde,2.0,1.5 m,139.0 kg,absorbe agua
+anorith,347.0,roca,bicho,3.0,verde - negro,1.0,0.7 m,12.5 kg,armadura batalla
+armaldo,348.0,roca,bicho,3.0,azul - negro,2.0,1.5 m,68.2 kg,armadura batalla
+feebas,349.0,agua,ninguno,3.0,beige - azul,1.0,0.6 m,7.4 kg,nado rapido
+milotic,350.0,agua,ninguno,3.0,beige - rosa,2.0,6.0 m,27.3 kg,escama especial
+castform,351.0,normal,ninguno,3.0,gris,1.0,0.3 m,1.8 kg,prediccion
+kecleon,352.0,normal,ninguno,3.0,verde,1.0,0.3 m,22.0 kg,cambio color
+shuppet,353.0,fantasma,ninguno,3.0,negro,1.0,0.7 m,2.3 kg,insomnio
+banette,354.0,fantasma,ninguno,3.0,negro,2.0,1.1 m,12.5 kg,insomnio
+duskull,355.0,fantasma,ninguno,3.0,negro - blanco,1.0,1.0 m,15.0 kg,levitacion
+dusclops,356.0,fantasma,ninguno,3.0,gris - blanco,2.0,1.6 m,30.0 kg,presion
+tropius,357.0,planta,volador,3.0,verde - cafe,1.0,2.0 m,83.0 kg,clorofila
+chimecho,358.0,psiquico,ninguno,3.0,azul - rosa,2.0,0.9 m,34.0 kg,levitacion
+absol,359.0,siniestro,ninguno,3.0,blanco,1.0,0.8 m,120.0 kg,super suerte
+wynaut,360.0,psiquico,ninguno,3.0,azul,1.0,0.6 m,15.0 kg,trampa sombra
+snorunt,361.0,hielo,ninguno,3.0,amarillo - negro,1.0,0.5 m,16.8 kg,foco interno
+glalie,362.0,hielo,ninguno,3.0,blanco - negro,2.0,1.5 m,256.5 kg,foco interno
+spheal,363.0,hielo,agua,3.0,azul - beige,1.0,0.8 m,87.6 kg,sebo
+sealeo,364.0,hielo,agua,3.0,azul - beige,2.0,1.1 m,150.6 kg,sebo
+walrein,365.0,hielo,agua,3.0,azul - blanco,3.0,1.4 m,150.6 kg,sebo
+clamperl,366.0,agua,ninguno,3.0,azul,1.0,0.8 m,52.5 kg,caparazon
+huntail,367.0,agua,ninguno,3.0,azul - naranja,2.0,1.7 m,27.0 kg,caparazon
+gorebyss,368.0,agua,ninguno,3.0,rosa,2.0,1.8 m,22.6 kg,nado rapido
+relicanth,369.0,agua,roca,3.0,cafe,1.0,1.0 m,23.4 kg,cabeza roca
+luvdisc,370.0,agua,ninguno,3.0,rosa,1.0,0.6 m,8.5 kg,nado rapido
+bagon,371.0,dragon,ninguno,3.0,azul,1.0,0.5 m,42.1 kg,cabeza roca
+shelgon,372.0,dragon,ninguno,3.0,gris,2.0,1.1 m,110.5 kg,cabeza roca
+salamence,373.0,dragon,volador,3.0,azul - rojo,2.0,1.5 m,102.6 kg,intimidacion
+beldum,374.0,acero,psiquico,3.0,azul,1.0,0.6 m,95.2 kg,cuerpo puro
+metang,375.0,acero,psiquico,3.0,azul,2.0,0.9 m,202.5 kg,cuerpo puro
+metagross,376.0,acero,psiquico,3.0,azul,3.0,1.6 m,550.0 kg,cuerpo puro
+regirock,377.0,roca,ninguno,3.0,beige - cafe,1.0,1.7 m,230.0 kg,robustez
+regice,378.0,hielo,ninguno,3.0,azul,1.0,1.5 m,325.0 kg,robustez
+registeel,379.0,acero,ninguno,3.0,gris - negro,1.0,1.8 m,120.0 kg,robustez
+latias,380.0,dragon,psiquico,3.0,rojo - blanco,1.0,1.4 m,40.0 kg,levitacion
+latios,381.0,dragon,psiquico,3.0,rojo - azul,1.0,2.0 m,60.0 kg,levitacion
+kyogre,382.0,agua,ninguno,3.0,azul,1.0,4.5 m,352.0 kg,presion
+groudon,383.0,tierra,ninguno,3.0,rojo,1.0,3.5 m,950.0 kg,presion
+rayquaza,384.0,dragon,volador,3.0,verde,1.0,7.0 m,206.5 kg,veloz
+jirachi,385.0,acero,psiquico,3.0,amarillo - blanco,1.0,0.3 m,1.0 kg,cura natural
+deoxys,386.0,psiquico,ninguno,3.0,rojo - azul,1.0,1.7 m,60.8 kg,presion
+turtwig,387.0,planta,ninguno,4.0,verde,1.0,0.4 m,18.2 kg,espesura
+grotle,388.0,planta,ninguno,4.0,verde - amarillo,2.0,1.2 m,57.0 kg,espesura
+torterra,389.0,planta,tierra,4.0,verde - cafe,3.0,2.2 m,95.0 kg,espesura
+chimchar,390.0,fuego,ninguno,4.0,cafe - beige,1.0,0.5 m,6.2 kg,mar llamas
+monferno,391.0,fuego,lucha,4.0,naranja,2.0,0.9 m,22.0 kg,mar llamas
+infernape,392.0,fuego,lucha,4.0,cafe - blanco,3.0,1.2 m,55.0 kg,mar llamas
+piplup,393.0,agua,ninguno,4.0,azul,1.0,0.4 m,5.2 kg,torrente
+prinplup,394.0,agua,ninguno,4.0,azul,2.0,0.8 m,23.0 kg,torrente
+empoleon,395.0,agua,acero,4.0,azul - negro,3.0,1.9 m,84.5 kg,torrente
+starly,396.0,normal,volador,4.0,negro,1.0,0.2 m,2.0 kg,vista lince
+staravia,397.0,normal,volador,4.0,negro,2.0,0.6 m,24.9 kg,intimidacion
+staraptor,398.0,normal,volador,4.0,negro,3.0,1.2 m,38.0 kg,intimidacion
+bibarel,400.0,normal,agua,4.0,cafe,2.0,1.0 m,27.0 kg,simple
+kricketot,401.0,bicho,ninguno,4.0,rojo,1.0,0.3 m,2.9 kg,enjambre
+kricketune,402.0,bicho,ninguno,4.0,rojo - negro,2.0,0.6 m,34.0 kg,experto
+shinx,403.0,electrico,ninguno,4.0,azul - negro,1.0,0.5 m,9.5 kg,rivalidad
+luxio,404.0,electrico,ninguno,4.0,azul - negro,2.0,0.9 m,42.0 kg,intimidacion
+luxray,405.0,electrico,ninguno,4.0,azul - negro,3.0,1.4 m,42.0 kg,intimidacion
+budew,406.0,planta,veneno,4.0,verde - amarillo,1.0,0.3 m,0.7 kg,cura natural
+roserade,407.0,planta,veneno,4.0,verde,3.0,1.2 m,9.5 kg,cura natural
+cranidos,408.0,roca,ninguno,4.0,negro - azul,1.0,0.9 m,102.5 kg,cabeza roca
+rampardos,409.0,roca,ninguno,4.0,negro - azul,2.0,1.6 m,97.0 kg,cabeza roca
+shieldon,410.0,roca,acero,4.0,amarillo - negro,1.0,0.3 m,57.0 kg,robustez
+bastiodon,411.0,roca,acero,4.0,amarillo - negro,2.0,1.2 m,149.0 kg,robustez
+burmy,412.0,bicho,ninguno,4.0,verde,1.0,0.2 m,6.5 kg,mudar
+wormadam,413.0,bicho,planta,4.0,verde,2.0,0.5 m,38.5 kg,anticipacion
+mothim,414.0,bicho,volador,4.0,amarillo - negro,2.0,1.6 m,23.3 kg,insomnio
+combee,415.0,bicho,volador,4.0,amarillo - negro,1.0,0.3 m,5.5 kg,recolector
+vespiquen,416.0,bicho,volador,4.0,amarillo - negro,2.0,1.0 m,38.0 kg,presion
+pachirisu,417.0,electrico,ninguno,4.0,blanco - azul,1.0,0.4 m,33.3 kg,fuga
+buizel,418.0,agua,ninguno,4.0,naranja,1.0,0.7 m,29.5 kg,nado rapido
+floatzel,419.0,agua,ninguno,4.0,naranja,2.0,1.3 m,85.0 kg,nado rapido
+cherubi,420.0,planta,ninguno,4.0,rosa,1.0,0.4 m,9.9 kg,clorofila
+cherrim,421.0,planta,ninguno,4.0,morado,2.0,0.5 m,9.3 kg,don flor
+shellos,422.0,agua,ninguno,4.0,rosa,1.0,0.4 m,2.9 kg,tormenta arena
+gastrodon,423.0,agua,tierra,4.0,rosa - cafe,2.0,0.9 m,29.9 kg,tormenta arena
+ambipom,424.0,normal,ninguno,4.0,morado - beige,2.0,1.2 m,48.0 kg,experto
+drifloon,425.0,fantasma,volador,4.0,morado,1.0,0.4 m,1.2 kg,entremanos
+drifblim,426.0,fantasma,volador,4.0,morado,2.0,1.2 m,13.0 kg,entremanos
+buneary,427.0,normal,ninguno,4.0,cafe - beige,1.0,0.4 m,5.5 kg,fuga
+lopunny,428.0,normal,ninguno,4.0,cafe - beige,2.0,1.2 m,28.0 kg,gran encanto
+mismagius,429.0,fantasma,ninguno,4.0,morado,2.0,0.9 m,44.5 kg,levitacion
+honchkrow,430.0,siniestro,volador,4.0,azul - rojo,2.0,0.9 m,60.9 kg,super suerte
+glameow,431.0,normal,volador,4.0,gris,1.0,0.5 m,3.9 kg,normalidad
+purugly,432.0,normal,volador,4.0,gris - blanco,2.0,1.0 m,32.0 kg,sebo
+chingling,433.0,psiquico,ninguno,4.0,amarillo,1.0,0.2 m,0.6 kg,sincronia
+stunky,434.0,veneno,siniestro,4.0,morado - blanco,1.0,0.5 m,19.2 kg,hedor
+skuntank,435.0,veneno,siniestro,4.0,morado - blanco,2.0,1.5 m,29.0 kg,hedor
+bronzor,436.0,acero,psiquico,4.0,azul,1.0,0.5 m,60.0 kg,ignifugo
+bronzong,437.0,acero,psiquico,4.0,azul,2.0,1.3 m,60.0 kg,ignifugo
+bonsly,438.0,roca,ninguno,4.0,cafe,1.0,0.5 m,15.0 kg,robustez
+mime_jr,439.0,psiquico,hada,4.0,rosa - azul,1.0,0.6 m,13.0 kg,insonorizar
+happiny,440.0,normal,ninguno,4.0,rosa,1.0,0.6 m,24.4 kg,cura natural
+chatot,441.0,normal,volador,4.0,negro,1.0,0.5 m,38.6 kg,vista lince
+spiritomb,442.0,fantasma,siniestro,4.0,morado - verde,1.0,1.0 m,108.0 kg,presion
+gible,443.0,dragon,tierra,4.0,azul,1.0,0.7 m,95.0 kg,velo arena
+gabite,444.0,dragon,tierra,4.0,azul,2.0,1.5 m,68.0 kg,velo arena
+garchomp,445.0,dragon,tierra,4.0,azul,3.0,1.9 m,95.0 kg,piel tosca
+munchlax,446.0,normal,ninguno,4.0,verde - beige,1.0,0.6 m,105.0 kg,sebo
+riolu,447.0,lucha,ninguno,4.0,azul - negro,1.0,0.7 m,54.0 kg,impasible
+lucario,448.0,lucha,acero,4.0,azul - negro,2.0,1.2 m,54.0 kg,impasible
+hippopotas,449.0,tierra,ninguno,4.0,cafe - beige,1.0,0.7 m,93.0 kg,piel seca
+hippowdon,450.0,tierra,ninguno,4.0,cafe - negro,2.0,2.2 m,300.0 kg,piel seca
+skorupi,451.0,veneno,bicho,4.0,azul,1.0,0.4 m,61.5 kg,armadura batalla
+drapion,452.0,veneno,siniestro,4.0,morado,2.0,1.3 m,40.5 kg,enjambre
+croagunk,453.0,veneno,lucha,4.0,azul,1.0,0.7 m,83.0 kg,piel seca
+toxicroak,454.0,veneno,lucha,4.0,azul,2.0,1.3 m,44.4 kg,piel seca
+carnivine,455.0,planta,ninguno,4.0,verde,1.0,1.4 m,27.0 kg,levitacion
+finneon,456.0,agua,ninguno,4.0,azul - negro,1.0,1.2 m,7.0 kg,nado rapido
+lumineon,457.0,agua,ninguno,4.0,azul - negro,2.0,1.9 m,22.0 kg,absorbe agua
+mantyke,458.0,agua,volador,4.0,azul,1.0,1.0 m,220.0 kg,velo agua
+snover,459.0,planta,hielo,4.0,blanco - verde,1.0,1.0 m,50.5 kg,manto niveo
+weavile,461.0,siniestro,hielo,4.0,negro - rojo,2.0,1.1 m,34.0 kg,presion
+magnezone,462.0,electrico,acero,4.0,gris,3.0,1.2 m,180.0 kg,magnetismo
+lickilicky,463.0,normal,ninguno,4.0,rosa,2.0,1.7 m,270.0 kg,despiste
+rhyperior,464.0,tierra,roca,4.0,gris - naranja,3.0,1.9 m,282.8 kg,pararrayos
+tangrowth,465.0,planta,ninguno,4.0,azul,2.0,2.0 m,131.0 kg,compensacion
+electivire,466.0,electrico,ninguno,4.0,amarillo - negro,3.0,1.8 m,139.0 kg,impulso vital
+magmortar,467.0,fuego,ninguno,4.0,rojo - amarillo,3.0,1.6 m,68.0 kg,cuerpo llama
+togekiss,468.0,hada,volador,4.0,blanco,3.0,1.5 m,52.0 kg,cura natural
+yanmega,469.0,bicho,volador,4.0,verde,2.0,2.0 m,51.0 kg,cromolente
+leafeon,470.0,planta,ninguno,4.0,verde - beige,2.0,1.0 m,25.5 kg,hoja afilada
+glaceon,471.0,hielo,ninguno,4.0,azul,2.0,0.8 m,25.9 kg,manto niveo
+gliscor,472.0,tierra,volador,4.0,gris,2.0,2.0 m,42.5 kg,hipercorte
+mamoswine,473.0,hielo,tierra,4.0,cafe,3.0,2.5 m,291.0 kg,despiste
+porygon-z,474.0,normal,ninguno,4.0,azul - rosa,3.0,0.8 m,85.0 kg,calco
+gallade,475.0,psiquico,lucha,4.0,verde - blanco,3.0,1.6 m,52.0 kg,impasible
+probopass,476.0,roca,acero,4.0,rojo - azul,2.0,1.4 m,340.0 kg,magnetismo
+dusknoir,477.0,fantasma,ninguno,4.0,gris,3.0,1.7 m,106.5 kg,presion
+froslass,478.0,hielo,fantasma,4.0,blanco,2.0,1.3 m,26.3 kg,manto niveo
+rotom,479.0,electrico,fantasma,4.0,rojo,1.0,0.3 m,30.0 kg,levitacion
+uxie,480.0,psiquico,ninguno,4.0,gris - amarillo,1.0,0.3 m,0.3 kg,levitacion
+mesprit,481.0,psiquico,ninguno,4.0,gris - rosa,1.0,0.3 m,0.3 kg,levitacion
+azelf,482.0,psiquico,ninguno,4.0,gris - azul,1.0,4.2 m,0.3 kg,presion
+dialga,483.0,acero,dragon,4.0,azul,1.0,4.1 m,336.0 kg,presion
+palkia,484.0,agua,dragon,4.0,blanco - morado,1.0,4.2 m,306.0 kg,presion
+heatran,485.0,fuego,acero,4.0,rojo - gris,1.0,1.7 m,83.0 kg,ignifugo
+regigigas,486.0,normal,ninguno,4.0,blanco - amarillo,1.0,3.7 m,420.0 kg,sueño eterno
+giratina,487.0,fantasma,dragon,4.0,gris - negro,1.0,4.5 m,750.0 kg,presion
+cresselia,488.0,psiquico,ninguno,4.0,azul - rosa,1.0,1.2 m,0.0 kg,cura natural
+phione,489.0,agua,ninguno,4.0,azul,1.0,0.3 m,0.5 kg,hidratacion
+manaphy,490.0,agua,ninguno,4.0,azul,1.0,0.1 m,0.1 kg,hidratacion
+darkrai,491.0,siniestro,ninguno,4.0,negro,1.0,1.5 m,1.0 kg,mal sueño
+shaymin,492.0,planta,acero,4.0,verde - blanco,1.0,0.2 m,5.2 kg,cura natural
+arceus,493.0,normal,ninguno,4.0,blanco,1.0,3.2 m,320.0 kg,multitype
+victini,494.0,psiquico,fuego,5.0,amarillo - naranja,1.0,1.0 m,20.0 kg,estrella victoria
+snivy,495.0,planta,ninguno,5.0,verde,1.0,0.6 m,8.3 kg,espesura
+servine,496.0,planta,ninguno,5.0,verde,2.0,1.2 m,16.0 kg,espesura
+serperior,497.0,planta,ninguno,5.0,verde,3.0,2.0 m,63.0 kg,espesura
+tepig,498.0,fuego,ninguno,5.0,naranja - negro,1.0,0.5 m,9.0 kg,mar llamas
+pignite,499.0,fuego,lucha,5.0,naranja - negro,2.0,0.9 m,55.5 kg,mar llamas
+emboar,500.0,fuego,lucha,5.0,naranja - negro,3.0,1.5 m,150.0 kg,mar llamas
+oshawott,501.0,agua,ninguno,5.0,azul - blanco,1.0,0.5 m,5.9 kg,torrente
+dewott,502.0,agua,ninguno,5.0,azul,2.0,0.8 m,24.6 kg,torrente
+samurott,503.0,agua,ninguno,5.0,azul,3.0,1.5 m,94.6 kg,torrente
+patrat,504.0,normal,ninguno,5.0,cafe,1.0,0.5 m,11.0 kg,iluminacion
+watchog,505.0,normal,ninguno,5.0,rojo - amarillo,2.0,1.1 m,27.0 kg,iluminacion
+lillipup,506.0,normal,ninguno,5.0,beige,1.0,0.4 m,10.1 kg,espiritu vital
+herdier,507.0,normal,ninguno,5.0,beige - negro,2.0,0.9 m,14.7 kg,intimidacion
+stoutland,508.0,normal,ninguno,5.0,beige - negro,3.0,1.2 m,61.0 kg,intimidacion
+purrloin,509.0,siniestro,ninguno,5.0,morado,1.0,0.4 m,10.1 kg,flexibilidad
+liepard,510.0,siniestro,ninguno,5.0,morado,2.0,1.3 m,37.5 kg,flexibilidad
+simisage,512.0,planta,ninguno,5.0,verde,2.0,1.1 m,30.5 kg,impetu hierba
+pansear,513.0,fuego,ninguno,5.0,rojo,1.0,0.6 m,28.0 kg,impetu hierba
+simisear,514.0,fuego,ninguno,5.0,rojo,2.0,1.1 m,28.0 kg,impetu hierba
+panpour,515.0,agua,ninguno,5.0,azul,1.0,0.6 m,29.0 kg,impetu hierba
+simipour,516.0,agua,ninguno,5.0,azul,2.0,1.1 m,29.0 kg,impetu hierba
+munna,517.0,psiquico,ninguno,5.0,rosa,1.0,0.6 m,60.0 kg,telepatia
+musharna,518.0,psiquico,ninguno,5.0,rosa - morado,2.0,1.1 m,60.7 kg,telepatia
+pidove,519.0,normal,volador,5.0,gris,1.0,0.3 m,21.0 kg,sacapecho
+tranquill,520.0,normal,volador,5.0,gris - negro,2.0,0.6 m,32.0 kg,sacapecho
+unfezant,521.0,normal,volador,5.0,gris - negro,3.0,1.5 m,29.0 kg,sacapecho
+blitzle,522.0,electrico,ninguno,5.0,blanco - negro,1.0,0.4 m,29.8 kg,pararrayos
+zebstrika,523.0,electrico,ninguno,5.0,blanco - negro,2.0,1.6 m,79.5 kg,impulso vital
+roggenrola,524.0,roca,ninguno,5.0,azul,1.0,0.4 m,25.0 kg,robustez
+boldore,525.0,roca,ninguno,5.0,azul - naranja,2.0,0.9 m,102.0 kg,robustez
+gigalith,526.0,roca,ninguno,5.0,azul - rojo,3.0,1.7 m,260.0 kg,robustez
+woobat,527.0,psiquico,volador,5.0,azul - negro,1.0,0.4 m,2.1 kg,despiste
+swoobat,528.0,psiquico,volador,5.0,azul - negro,2.0,0.9 m,10.5 kg,despiste
+drilbur,529.0,tierra,ninguno,5.0,negro - gris,1.0,0.3 m,40.4 kg,velo arena
+excadrill,530.0,tierra,acero,5.0,negro - gris,2.0,0.7 m,110.0 kg,velo arena
+audino,531.0,normal,ninguno,5.0,rosa - beige,1.0,1.1 m,13.5 kg,regeneracion
+timburr,532.0,lucha,ninguno,5.0,beige - rosa,1.0,0.6 m,12.5 kg,agallas
+gurdurr,533.0,lucha,ninguno,5.0,beige - rosa,2.0,1.2 m,40.0 kg,agallas
+conkeldurr,534.0,lucha,ninguno,5.0,beige - rosa,3.0,1.4 m,87.0 kg,puño ferreo
+tympole,535.0,agua,ninguno,5.0,azul - beige,1.0,0.5 m,4.5 kg,nado rapido
+palpitoad,536.0,agua,tierra,5.0,azul - beige,2.0,0.8 m,17.0 kg,nado rapido
+seismitoad,537.0,agua,tierra,5.0,azul,3.0,1.5 m,62.0 kg,absorbe agua
+throh,538.0,lucha,ninguno,5.0,rojo - blanco,1.0,1.3 m,55.5 kg,agallas
+sawk,539.0,lucha,ninguno,5.0,azul - blanco,1.0,1.4 m,51.0 kg,impasible
+sewaddle,540.0,bicho,planta,5.0,verde - amarillo,1.0,0.3 m,7.5 kg,enjambre
+swadloon,541.0,bicho,planta,5.0,verde - amarillo,2.0,0.6 m,58.5 kg,hoja afilada
+leavanny,542.0,bicho,planta,5.0,verde - amarillo,3.0,1.2 m,20.5 kg,enjambre
+venipede,543.0,bicho,veneno,5.0,rojo,1.0,0.4 m,5.3 kg,punto toxico
+whirlipede,544.0,bicho,veneno,5.0,gris,2.0,1.2 m,200.0 kg,punto toxico
+scolipede,545.0,bicho,veneno,5.0,rojo,3.0,2.5 m,200.0 kg,aceleracion
+cottonee,546.0,planta,hada,5.0,blanco - verde,1.0,0.7 m,0.6 kg,bromista
+whimsicott,547.0,planta,hada,5.0,blanco - cafe,2.0,0.7 m,6.6 kg,bromista
+petilil,548.0,planta,ninguno,5.0,verde,1.0,0.5 m,6.6 kg,clorofila
+lilligant,549.0,planta,ninguno,5.0,verde,2.0,1.1 m,16.3 kg,clorofila
+basculin,550.0,agua,ninguno,5.0,verde,1.0,1.0 m,18.0 kg,cabeza roca
+sandile,551.0,tierra,siniestro,5.0,cafe - negro,1.0,0.7 m,15.2 kg,intimidacion
+krokorok,552.0,tierra,siniestro,5.0,cafe - negro,2.0,1.0 m,33.4 kg,intimidacion
+krookodile,553.0,tierra,siniestro,5.0,rojo - negro,3.0,1.5 m,96.3 kg,intimidacion
+darumaka,554.0,fuego,normal,5.0,rojo,1.0,0.6 m,37.5 kg,entusiasmo
+darmanitan,555.0,fuego,psiquico,5.0,rojo,2.0,1.3 m,92.9 kg,entusiasmo
+maractus,556.0,planta,ninguno,5.0,verde,1.0,1.0 m,28.0 kg,absorbe agua
+dwebble,557.0,bicho,roca,5.0,rojo - cafe,1.0,0.3 m,14.5 kg,robustez
+crustle,558.0,bicho,roca,5.0,rojo - cafe,2.0,1.6 m,200.0 kg,robustez
+scraggy,559.0,siniestro,lucha,5.0,amarillo,1.0,0.6 m,11.8 kg,mudar
+scrafty,560.0,siniestro,lucha,5.0,naranja,2.0,1.1 m,30.0 kg,mudar
+sigilyph,561.0,psiquico,volador,5.0,negro - amarillo,1.0,1.5 m,1.5 kg,muro magico
+yamask,562.0,fantasma,ninguno,5.0,negro,1.0,0.5 m,30.5 kg,velo agua
+cofagrigus,563.0,fantasma,ninguno,5.0,negro - amarillo,2.0,1.7 m,76.5 kg,velo agua
+tirtouga,564.0,agua,roca,5.0,azul,1.0,0.7 m,32.5 kg,nado rapido
+carracosta,565.0,agua,roca,5.0,azul,2.0,1.2 m,81.0 kg,nado rapido
+archen,566.0,roca,volador,5.0,amarillo,1.0,0.5 m,9.0 kg,defeatist
+archeops,567.0,roca,volador,5.0,amarillo,2.0,1.5 m,37.0 kg,defeatist
+trubbish,568.0,veneno,ninguno,5.0,verde,1.0,0.6 m,31.0 kg,hedor
+garbodor,569.0,veneno,ninguno,5.0,gris - verde,2.0,1.9 m,107.3 kg,hedor
+zorua,570.0,siniestro,ninguno,5.0,negro - rojo,1.0,0.7 m,12.5 kg,ilusion
+zoroark,571.0,siniestro,ninguno,5.0,negro - rojo,2.0,1.6 m,81.1 kg,ilusion
+minccino,572.0,normal,ninguno,5.0,gris,1.0,0.5 m,5.8 kg,gran encanto
+cinccino,573.0,normal,ninguno,5.0,gris - blanco,2.0,1.1 m,14.5 kg,experto
+gothita,574.0,psiquico,ninguno,5.0,negro - morado,1.0,0.6 m,5.7 kg,magico
+gothorita,575.0,psiquico,ninguno,5.0,negro - morado,2.0,0.9 m,37.0 kg,magico
+gothitelle,576.0,psiquico,ninguno,5.0,negro - morado,3.0,1.1 m,44.0 kg,magico
+solosis,577.0,psiquico,ninguno,5.0,verde,1.0,0.3 m,1.0 kg,muro magico
+duosion,578.0,psiquico,ninguno,5.0,verde,2.0,0.6 m,13.0 kg,muro magico
+reuniclus,579.0,psiquico,ninguno,5.0,verde,3.0,1.0 m,20.1 kg,muro magico
+ducklett,580.0,agua,volador,5.0,azul,1.0,0.5 m,3.6 kg,velo agua
+swanna,581.0,agua,volador,5.0,azul - blanco,2.0,1.3 m,24.05 kg,velo agua
+vanillite,582.0,hielo,ninguno,5.0,azul - blanco,1.0,0.4 m,5.7 kg,absorbe hielo
+vanillish,583.0,hielo,ninguno,5.0,azul - blanco,2.0,1.1 m,23.5 kg,absorbe hielo
+vanilluxe,584.0,hielo,ninguno,5.0,azul - blanco,3.0,1.3 m,57.5 kg,absorbe hielo
+deerling,585.0,normal,planta,5.0,beige - rosa,1.0,0.6 m,19.3 kg,clorofila
+sawsbuck,586.0,normal,planta,5.0,cafe - rosa,2.0,1.5 m,92.5 kg,clorofila
+emolga,587.0,electrico,volador,5.0,negro - blanco,1.0,0.4 m,5.0 kg,electricidad estatica
+karrablast,588.0,bicho,ninguno,5.0,azul,1.0,0.8 m,4.0 kg,enjambre
+escavalier,589.0,bicho,acero,5.0,gris - rojo,2.0,1.7 m,70.5 kg,enjambre
+foongus,590.0,planta,veneno,5.0,blanco - rojo,1.0,0.2 m,1.0 kg,efecto espora
+amoonguss,591.0,planta,veneno,5.0,blanco - rojo,2.0,0.6 m,10.5 kg,efecto espora
+frillish,592.0,agua,fantasma,5.0,rosa,1.0,1.2 m,33.0 kg,absorbe agua
+jellicent,593.0,agua,fantasma,5.0,rosa,2.0,2.2 m,135.0 kg,absorbe agua
+alomomola,594.0,agua,ninguno,5.0,rosa,1.0,0.6 m,78.0 kg,regeneracion
+joltik,595.0,bicho,electrico,5.0,amarillo,1.0,0.8 m,0.6 kg,ojo compuesto
+galvantula,596.0,bicho,electrico,5.0,amarillo - azul,2.0,1.6 m,142.8 kg,ojo compuesto
+ferroseed,597.0,planta,acero,5.0,verde - gris,1.0,0.6 m,18.8 kg,puño ferreo
+ferrothorn,598.0,planta,acero,5.0,verde - gris,2.0,1.0 m,110.0 kg,puño ferreo
+klink,599.0,acero,ninguno,5.0,gris,1.0,0.6 m,21.0 kg,mas
+klang,600.0,acero,ninguno,5.0,gris,2.0,0.9 m,81.0 kg,mas
+klinklang,601.0,acero,ninguno,5.0,gris,3.0,1.0 m,130.0 kg,mas
+tynamo,602.0,electrico,ninguno,5.0,blanco,1.0,0.2 m,6.0 kg,levitacion
+eelektrik,603.0,electrico,ninguno,5.0,azul - amarillo,2.0,0.6 m,22.0 kg,levitacion
+eelektross,604.0,electrico,ninguno,5.0,azul - amarillo,3.0,2.1 m,80.5 kg,levitacion
+elgyem,605.0,psiquico,ninguno,5.0,azul,1.0,1.0 m,17.0 kg,telepatia
+beheeyem,606.0,psiquico,ninguno,5.0,cafe,2.0,1.5 m,34.5 kg,telepatia
+litwick,607.0,fantasma,fuego,5.0,blanco - azul,1.0,0.4 m,3.0 kg,absorbe fuego
+lampent,608.0,fantasma,fuego,5.0,negro - azul,2.0,0.9 m,13.0 kg,absorbe fuego
+chandelure,609.0,fantasma,fuego,5.0,negro - azul,3.0,1.6 m,34.0 kg,absorbe fuego
+axew,610.0,dragon,ninguno,5.0,verde,1.0,0.6 m,18.0 kg,rivalidad
+fraxure,611.0,dragon,ninguno,5.0,verde - negro,2.0,1.0 m,36.0 kg,rivalidad
+haxorus,612.0,dragon,ninguno,5.0,amarillo - negro,3.0,1.8 m,105.5 kg,rivalidad
+cubchoo,613.0,hielo,ninguno,5.0,azul - blanco,1.0,0.5 m,8.5 kg,fuga
+cryogonal,615.0,hielo,ninguno,5.0,azul - blanco,1.0,1.1 m,148.0 kg,manto niveo
+shelmet,616.0,bicho,ninguno,5.0,rosa - gris,1.0,0.4 m,7.7 kg,hidratacion
+accelgor,617.0,bicho,ninguno,5.0,rosa - azul,2.0,0.8 m,25.3 kg,hidratacion
+stunfisk,618.0,tierra,electrico,5.0,cafe - amarillo,1.0,0.7 m,109.0 kg,flexibilidad
+mienfoo,619.0,lucha,ninguno,5.0,amarillo - rosa,1.0,0.9 m,20.0 kg,regeneracion
+mienshao,620.0,lucha,ninguno,5.0,morado - blanco,2.0,1.4 m,48.0 kg,regeneracion
+druddigon,621.0,dragon,ninguno,5.0,azul - rojo,1.0,1.0 m,139.0 kg,piel tosca
+golett,622.0,tierra,fantasma,5.0,azul - cafe,1.0,0.8 m,88.8 kg,puño ferreo
+golurk,623.0,tierra,fantasma,5.0,azul - cafe,2.0,2.5 m,165.0 kg,puño ferreo
+pawniard,624.0,siniestro,acero,5.0,rojo - negro,1.0,0.5 m,10.2 kg,defiant
+bisharp,625.0,siniestro,acero,5.0,rojo - negro,2.0,1.6 m,70.0 kg,defiant
+bouffalant,626.0,normal,ninguno,5.0,cafe,1.0,1.6 m,94.6 kg,herbivoro
+rufflet,627.0,normal,volador,5.0,gris - blanco,1.0,0.5 m,10.5 kg,vista lince
+braviary,628.0,normal,volador,5.0,negro - rojo,2.0,1.5 m,41.0 kg,vista lince
+vullaby,629.0,siniestro,volador,5.0,rosa - cafe,1.0,0.5 m,39.5 kg,sacapecho
+mandibuzz,630.0,siniestro,volador,5.0,rosa - cafe,2.0,1.1 m,110.0 kg,sacapecho
+heatmor,631.0,fuego,ninguno,5.0,gris - rojo,1.0,1.4 m,58.0 kg,absorbe fuego
+durant,632.0,bicho,acero,5.0,gris,1.0,0.3 m,33.0 kg,enjambre
+deino,633.0,siniestro,dragon,5.0,negro - azul,1.0,0.6 m,17.3 kg,entusiasmo
+zweilous,634.0,siniestro,dragon,5.0,negro - azul,2.0,1.4 m,32.0 kg,entusiasmo
+hydreigon,635.0,siniestro,dragon,5.0,negro - azul,3.0,1.8 m,160.0 kg,levitacion
+larvesta,636.0,bicho,fuego,5.0,blanco - rojo,1.0,0.3 m,10.5 kg,cuerpo llama
+volcarona,637.0,bicho,fuego,5.0,blanco - rojo,2.0,1.5 m,59.0 kg,cuerpo llama
+cobalion,638.0,acero,lucha,5.0,azul,1.0,2.0 m,250.0 kg,puño ferreo
+terrakion,639.0,roca,lucha,5.0,gris,1.0,2.0 m,300.0 kg,puño ferreo
+virizion,640.0,planta,lucha,5.0,verde,1.0,3.6 m,200.0 kg,justiciero
+tornadus,641.0,volador,ninguno,5.0,verde - morado,1.0,1.5 m,63.0 kg,bromista
+thundurus,642.0,electrico,volador,5.0,azul - negro,1.0,1.0 m,61.0 kg,regeneracion
+reshiram,643.0,dragon,fuego,5.0,blanco,1.0,3.2 m,120.0 kg,presion
+zekrom,644.0,dragon,electrico,5.0,negro,1.0,2.9 m,153.0 kg,presion
+landorus,645.0,tierra,volador,5.0,naranja,1.0,1.3 m,68.0 kg,velo arena
+kyurem,646.0,dragon,hielo,5.0,gris - azul,1.0,3.3 m,325.0 kg,presion
+keldeo,647.0,agua,lucha,5.0,beige - azul,1.0,0.6 m,48.5 kg,justiciero
+meloetta,648.0,normal,psiquico,5.0,verde - negro,1.0,0.6 m,6.2 kg,cura natural
+genesect,649.0,bicho,acero,5.0,morado,1.0,1.2 m,42.5 kg,calco
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
