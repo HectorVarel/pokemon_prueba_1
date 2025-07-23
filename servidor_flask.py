@@ -120,6 +120,14 @@ def obtener_promedios():
         print("Error al calcular promedios:", str(e))
         return jsonify({"error": str(e)}), 500
 
+@app.route('/ver_csv', methods=['GET'])
+def ver_csv():
+    try:
+        ruta_csv = os.path.join(BASE_DIR, "pokemon.csv")
+        df = pd.read_csv(ruta_csv, encoding='latin1')
+        return jsonify(df.to_dict(orient='records')), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 
 if __name__ == '__main__':
