@@ -29,7 +29,7 @@ def obtener_pokemones():
 
         # Si han pasado más de 3600 segundos o no hay caché, genera nuevos pokémon
         tiempo_actual = time.time()
-        if tiempo_actual - last_update_time > 3600 or not cached_pokemones:
+        if tiempo_actual - last_update_time > 86400 or not cached_pokemones:
             nombres = df["NOMBRE"].dropna().unique().tolist()
             if len(nombres) == 0:
                 return jsonify({"error": "No hay más Pokémon disponibles en el CSV"}), 404
