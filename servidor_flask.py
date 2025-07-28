@@ -14,7 +14,15 @@ app = Flask(__name__)
 cached_pokemones = []
 last_update_time = 0
 
-@app.route('/pokemones', methods=['GET'])
+@app.route('/')
+def index():
+    return jsonify({"mensaje": "API de Pokémon funcionando"}), 200
+
+@app.route('/status')
+def status():
+    return jsonify({"status": "ok"}), 200
+
+
 @app.route('/pokemones', methods=['GET'])
 def obtener_pokemones():
     global cached_pokemones, last_update_time
