@@ -38,12 +38,6 @@ def obtener_pokemones():
 def generar_pokemones():
     global cached_pokemones, last_update_time
 
-    tiempo_actual = time.time()
-
-    # Verifica si ya se generaron pokemones hoy
-    if tiempo_actual - last_update_time < 86400:
-        return jsonify({"mensaje": "Ya se han generado Pokémon hoy. Intenta mañana."}), 403
-
     try:
         ruta_csv = os.path.join(BASE_DIR, "pokemon.csv")
         df = pd.read_csv(ruta_csv, encoding='latin1')
@@ -58,7 +52,7 @@ def generar_pokemones():
 
         cantidad_a_seleccionar = min(4, len(nombres))
         cached_pokemones = random.sample(nombres, k=cantidad_a_seleccionar)
-        last_update_time = tiempo_actual
+        last_update_time = time.time()  # Opcional: puedes dejarlo por si luego lo usas
 
         # Eliminar los registros de los pokemones seleccionados
         df = df[~df["NOMBRE"].isin(cached_pokemones)]
@@ -66,7 +60,7 @@ def generar_pokemones():
         # Guardar el CSV actualizado
         df.to_csv(ruta_csv, index=False, encoding='latin1')
 
-        print(f"Pokémon generados hoy: {cached_pokemones}")
+        print(f"Pokémon generados: {cached_pokemones}")
 
         return jsonify({"mensaje": "Pokémon generados correctamente", "pokemones": cached_pokemones}), 200
 
