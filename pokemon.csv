@@ -1,7 +1,6 @@
 NOMBRE,POKEDEX,TIPO 1,TIPO 2,GENERACION,COLORES,ETAPA DE EVOLUCION,ALTURA,PESO,HABILIDAD
 bulbasaur,1,planta,veneno,1,verde - azul,1,0.7 m,6.9 kg,espesura
 ivysaur,2,planta,veneno,1,verde - azul,2,1.0 m,13.0 kg,espesura
-charmander,4,fuego,ninguno,1,rojo,1,0.6 m,8.5 kg,mar llamas
 charmeleon,5,fuego,ninguno,1,rojo,2,1.1 m,19.0 kg,mar llamas
 charizard,6,fuego,volador,1,naranja,3,1.7 m,90.5 kg,mar llamas
 squirtle,7,agua,ninguno,1,azul,1,0.5 m,9.0 kg,torrente
@@ -29,7 +28,6 @@ clefairy,35,hada,ninguno,1,rosa,2,0.6 m,20.0 kg,gran encanto
 clefable,36,hada,ninguno,1,rosa,3,1.3 m,40.0 kg,gran encanto
 vulpix,37,fuego,ninguno,1,rojo,1,0.6 m,5.5 kg,absorbe fuego
 ninetales,38,fuego,ninguno,1,blanco,2,1.1 m,19.9 kg,absorbe fuego
-jigglypuff,39,normal ,hada,1,rosa,2,0.5 m,40.0 kg,gran encanto
 wigglytuff,40,normal ,hada,1,rosa,3,1.2 m,12.0 kg,gran encanto
 zubat,41,veneno,volador,1,morado - azul,1,0.8 m,55.0 kg,foco interno
 golbat,42,veneno,volador,1,morado - azul,2,1.6 m,6.5 kg,foco interno
@@ -47,9 +45,7 @@ golduck,55,agua,ninguno,1,azul,2,1.7 m,19.6 kg,humedad
 mankey,56,lucha,ninguno,1,blanco - cafe,1,0.5 m,62.0 kg,espiritu vital
 primeape,57,lucha,ninguno,1,blanco - cafe,2,1.0 m,20.0 kg,espiritu vital
 growlithe,58,fuego,ninguno,1,naranja - negro,1,0.7 m,70.0 kg,intimidacion
-poliwag,60,agua,ninguno,1,azul - blanco,1,0.6 m,155.0 kg,absorbe agua
 poliwhirl,61,agua,ninguno,1,azul - blanco,2,1.0 m,12.0 kg,absorbe agua
-poliwrath,62,agua,lucha,1,azul - blanco,3,1.3 m,19.5 kg,absorbe agua
 abra,63,psiquico,ninguno,1,amarillo,1,0.9 m,54.0 kg,sincronia
 kadabra,64,psiquico,ninguno,1,amarillo,2,1.3 m,48.0 kg,sincronia
 machoke,67,lucha,ninguno,1,gris,2,1.5 m,43.0 kg,agallas
@@ -88,7 +84,6 @@ hitmonchan,107,lucha,ninguno,1,cafe - morado,2,1.4 m,50.2 kg,flexibilidad
 lickitung,108,normal,ninguno,1,rosa,1,1.2 m,65.5 kg,ritmo propio
 koffing,109,veneno,ninguno,1,morado,1,0.6 m,1.0 kg,despiste
 weezing,110,veneno,ninguno,1,morado,2,1.2 m,9.5 kg,cuerpo llama
-rhyhorn,111,tierra,roca,1,gris,1,1.0 m,115.0 kg,cuerpo llama
 rhydon,112,tierra,roca,1,gris,2,1.9 m,120.0 kg,pararrayos
 chansey,113,normal,ninguno,1,rosa,2,1.1 m,34.6 kg,cura natural
 tangela,114,planta,ninguno,1,azul,1,2.0 m,35.0 kg,clorofila
@@ -121,7 +116,6 @@ mewtwo,150,psiquico,ninguno,1,morado,1,2.0 m,122.0 kg,presion
 mew,151,psiquico,ninguno,1,rosa,1,0.4 m,4.0 kg,sincronia
 chikorita,152,planta,ninguno,2,verde,1,0.9 m,6.4 kg,espesura
 bayleef,153,planta,ninguno,2,amarillo - verde,2,1.2 m,15.8 kg,espesura
-cyndaquil,155,fuego,ninguno,2,amarillo - verde,1,0.5 m,7.9 kg,mar llamas
 typhlosion,157,fuego,ninguno,2,amarillo - verde,3,1.7 m,79.5 kg,mar llamas
 totodile,158,agua,ninguno,2,azul,1,0.6 m,9.5 kg,torrente
 croconaw,159,agua,ninguno,2,azul,2,1.1 m,25.0 kg,torrente
@@ -172,7 +166,6 @@ ursaring,217,normal,ninguno,2,cafe,2,1.8 m,125.8 kg,agallas
 slugma,218,fuego,ninguno,2,rojo,1,0.7 m,35.0 kg,cuerpo llama
 piloswine,221,hielo,tierra,2,cafe,2,1.1 m,55.8 kg,despiste
 corsola,222,agua,roca,2,rosa - blanco,1,0.6 m,5.0 kg,hustismo
-remoraid,223,agua,ninguno,2,gris,1,0.6 m,12.0 kg,nado rapido
 octillery,224,agua,ninguno,2,rojo,2,1.2 m,28.5 kg,ventosas
 delibird,225,hielo,volador,2,rojo - blanco,1,0.9 m,16.0 kg,entrega
 skarmory,227,acero,volador,2,gris,1,1.7 m,50.5 kg,caparazon
@@ -186,7 +179,6 @@ tyrogue,236,lucha,ninguno,2,rosa - cafe,1,0.7 m,21.0 kg,agallas
 hitmontop,237,lucha,ninguno,2,azul - cafe,2,1.4 m,48.0 kg,cuerpo llama
 smoochum,238,hielo,psiquico,2,rosa - amarillo,1,0.4 m,17.8 kg,despiste
 elekid,239,electrico,ninguno,2,amarillo - negro,1,0.6 m,30.0 kg,electricidad estatica
-miltank,241,normal,ninguno,2,rosa,1,1.2 m,75.5 kg,sebo
 blissey,242,normal,ninguno,2,rosa - blanco,3,3.5 m,46.8 kg,cura natural
 raikou,243,electrico,ninguno,2,amarillo,1,2.0 m,177.0 kg,presion
 suicune,245,agua,ninguno,2,azul,1,2.0 m,187.0 kg,presion
@@ -198,7 +190,6 @@ hooh,250,fuego,volador,2,rojo,1,3.8 m,199.0 kg,regeneracion
 treecko,252,planta,ninguno,3,verde,1,0.5 m,5.0 kg,espesura
 grovyle,253,planta,ninguno,3,verde,2,0.9 m,21.6 kg,espesura
 sceptile,254,planta,ninguno,3,verde,3,1.7 m,52.2 kg,espesura
-torchic,255,fuego,ninguno,3,naranja,1,0.5 m,2.5 kg,mar llamas
 blaziken,257,fuego,lucha,3,rojo,3,1.9 m,52.0 kg,mar llamas
 marshtomp,259,agua,tierra,3,azul,2,0.7 m,28.0 kg,torrente
 swampert,260,agua,tierra,3,azul,3,1.5 m,81.9 kg,torrente
@@ -221,7 +212,6 @@ gardevoir,282,psiquico,hada,3,blanco - verde,3,1.6 m,48.4 kg,calco
 surskit,283,bicho,agua,3,azul,1,0.5 m,1.7 kg,intimidacion
 masquerain,284,bicho,volador,3,blanco,2,1.0 m,3.8 kg,intimidacion
 shroomish,285,planta,ninguno,3,verde - amarillo,1,0.4 m,4.5 kg,efecto espora
-breloom,286,planta,lucha,3,verde - amarillo,2,1.2 m,39.0 kg,efecto espora
 vigoroth,288,normal,ninguno,3,blanco,2,1.0 m,46.5 kg,pereza
 slaking,289,normal,ninguno,3,cafe,3,2.0 m,130.0 kg,pereza
 nincada,290,bicho,tierra,3,blanco,1,0.5 m,5.5 kg,ojo compuesto
@@ -271,13 +261,11 @@ whiscash,340,agua,tierra,3,azul,2,0.9 m,23.6 kg,anticipacion
 corphish,341,agua,ninguno,3,rojo,1,0.6 m,11.5 kg,hipercorte
 crawdaunt,342,agua,siniestro,3,rojo,2,1.1 m,32.7 kg,caparazon
 baltoy,343,tierra,psiquico,3,beige,1,0.5 m,21.5 kg,levitacion
-claydol,344,tierra,psiquico,3,negro,2,1.9 m,76.3 kg,levitacion
 lileep,345,roca,planta,3,morado - rosa,1,0.6 m,60.8 kg,absorbe agua
 cradily,346,roca,planta,3,verde,2,1.5 m,139.0 kg,absorbe agua
 anorith,347,roca,bicho,3,verde - negro,1,0.7 m,12.5 kg,armadura batalla
 armaldo,348,roca,bicho,3,azul - negro,2,1.5 m,68.2 kg,armadura batalla
 feebas,349,agua,ninguno,3,beige - azul,1,0.6 m,7.4 kg,nado rapido
-milotic,350,agua,ninguno,3,beige - rosa,2,6.0 m,27.3 kg,escama especial
 castform,351,normal,ninguno,3,gris,1,0.3 m,1.8 kg,prediccion
 kecleon,352,normal,ninguno,3,verde,1,0.3 m,22.0 kg,cambio color
 shuppet,353,fantasma,ninguno,3,negro,1,0.7 m,2.3 kg,insomnio
@@ -297,10 +285,7 @@ relicanth,369,agua,roca,3,cafe,1,1.0 m,23.4 kg,cabeza roca
 luvdisc,370,agua,ninguno,3,rosa,1,0.6 m,8.5 kg,nado rapido
 bagon,371,dragon,ninguno,3,azul,1,0.5 m,42.1 kg,cabeza roca
 shelgon,372,dragon,ninguno,3,gris,2,1.1 m,110.5 kg,cabeza roca
-salamence,373,dragon,volador,3,azul - rojo,2,1.5 m,102.6 kg,intimidacion
-beldum,374,acero,psiquico,3,azul,1,0.6 m,95.2 kg,cuerpo puro
 regirock,377,roca,ninguno,3,beige - cafe,1,1.7 m,230.0 kg,robustez
-regice,378,hielo,ninguno,3,azul,1,1.5 m,325.0 kg,robustez
 registeel,379,acero,ninguno,3,gris - negro,1,1.8 m,120.0 kg,robustez
 latias,380,dragon,psiquico,3,rojo - blanco,1,1.4 m,40.0 kg,levitacion
 latios,381,dragon,psiquico,3,rojo - azul,1,2.0 m,60.0 kg,levitacion
@@ -322,9 +307,7 @@ bibarel,400,normal,agua,4,cafe,2,1.0 m,27.0 kg,simple
 kricketot,401,bicho,ninguno,4,rojo,1,0.3 m,2.9 kg,enjambre
 kricketune,402,bicho,ninguno,4,rojo - negro,2,0.6 m,34.0 kg,experto
 shinx,403,electrico,ninguno,4,azul - negro,1,0.5 m,9.5 kg,rivalidad
-luxio,404,electrico,ninguno,4,azul - negro,2,0.9 m,42.0 kg,intimidacion
 budew,406,planta,veneno,4,verde - amarillo,1,0.3 m,0.7 kg,cura natural
-cranidos,408,roca,ninguno,4,negro - azul,1,0.9 m,102.5 kg,cabeza roca
 rampardos,409,roca,ninguno,4,negro - azul,2,1.6 m,97.0 kg,cabeza roca
 shieldon,410,roca,acero,4,amarillo - negro,1,0.3 m,57.0 kg,robustez
 bastiodon,411,roca,acero,4,amarillo - negro,2,1.2 m,149.0 kg,robustez
@@ -366,7 +349,6 @@ finneon,456,agua,ninguno,4,azul - negro,1,1.2 m,7.0 kg,nado rapido
 lumineon,457,agua,ninguno,4,azul - negro,2,1.9 m,22.0 kg,absorbe agua
 mantyke,458,agua,volador,4,azul,1,1.0 m,220.0 kg,velo agua
 snover,459,planta,hielo,4,blanco - verde,1,1.0 m,50.5 kg,manto niveo
-abomasnow,460,planta,hielo,4,blanco - verde,2,2.2 m,135.5 kg,manto niveo
 weavile,461,siniestro,hielo,4,negro - rojo,2,1.1 m,34.0 kg,presion
 magnezone,462,electrico,acero,4,gris,3,1.2 m,180.0 kg,magnetismo
 rhyperior,464,tierra,roca,4,gris - naranja,3,1.9 m,282.8 kg,pararrayos
@@ -391,7 +373,6 @@ regigigas,486,normal,ninguno,4,blanco - amarillo,1,3.7 m,420.0 kg,sueño eterno
 cresselia,488,psiquico,ninguno,4,azul - rosa,1,1.2 m,0.0 kg,cura natural
 phione,489,agua,ninguno,4,azul,1,0.3 m,0.5 kg,hidratacion
 manaphy,490,agua,ninguno,4,azul,1,0.1 m,0.1 kg,hidratacion
-arceus,493,normal,ninguno,4,blanco,1,3.2 m,320.0 kg,multitype
 snivy,495,planta,ninguno,5,verde,1,0.6 m,8.3 kg,espesura
 servine,496,planta,ninguno,5,verde,2,1.2 m,16.0 kg,espesura
 serperior,497,planta,ninguno,5,verde,3,2.0 m,63.0 kg,espesura
@@ -438,7 +419,6 @@ cottonee,546,planta,hada,5,blanco - verde,1,0.7 m,0.6 kg,bromista
 whimsicott,547,planta,hada,5,blanco - cafe,2,0.7 m,6.6 kg,bromista
 petilil,548,planta,ninguno,5,verde,1,0.5 m,6.6 kg,clorofila
 lilligant,549,planta,ninguno,5,verde,2,1.1 m,16.3 kg,clorofila
-basculin,550,agua,ninguno,5,verde,1,1.0 m,18.0 kg,cabeza roca
 sandile,551,tierra,siniestro,5,cafe - negro,1,0.7 m,15.2 kg,intimidacion
 krokorok,552,tierra,siniestro,5,cafe - negro,2,1.0 m,33.4 kg,intimidacion
 krookodile,553,tierra,siniestro,5,rojo - negro,3,1.5 m,96.3 kg,intimidacion
@@ -468,7 +448,6 @@ vanillish,583,hielo,ninguno,5,azul - blanco,2,1.1 m,23.5 kg,absorbe hielo
 vanilluxe,584,hielo,ninguno,5,azul - blanco,3,1.3 m,57.5 kg,absorbe hielo
 deerling,585,normal,planta,5,beige - rosa,1,0.6 m,19.3 kg,clorofila
 sawsbuck,586,normal,planta,5,cafe - rosa,2,1.5 m,92.5 kg,clorofila
-emolga,587,electrico,volador,5,negro - blanco,1,0.4 m,5.0 kg,electricidad estatica
 karrablast,588,bicho,ninguno,5,azul,1,0.8 m,4.0 kg,enjambre
 escavalier,589,bicho,acero,5,gris - rojo,2,1.7 m,70.5 kg,enjambre
 amoonguss,591,planta,veneno,5,blanco - rojo,2,0.6 m,10.5 kg,efecto espora
@@ -489,7 +468,6 @@ lampent,608,fantasma,fuego,5,negro - azul,2,0.9 m,13.0 kg,absorbe fuego
 fraxure,611,dragon,ninguno,5,verde - negro,2,1.0 m,36.0 kg,rivalidad
 haxorus,612,dragon,ninguno,5,amarillo - negro,3,1.8 m,105.5 kg,rivalidad
 cubchoo,613,hielo,ninguno,5,azul - blanco,1,0.5 m,8.5 kg,fuga
-beartic,614,hielo,ninguno,5,azul - blanco,2,2.6 m,130.0 kg,manto niveo
 cryogonal,615,hielo,ninguno,5,azul - blanco,1,1.1 m,148.0 kg,manto niveo
 shelmet,616,bicho,ninguno,5,rosa - gris,1,0.4 m,7.7 kg,hidratacion
 stunfisk,618,tierra,electrico,5,cafe - amarillo,1,0.7 m,109.0 kg,flexibilidad
@@ -502,12 +480,10 @@ rufflet,627,normal,volador,5,gris - blanco,1,0.5 m,10.5 kg,vista lince
 vullaby,629,siniestro,volador,5,rosa - cafe,1,0.5 m,39.5 kg,sacapecho
 mandibuzz,630,siniestro,volador,5,rosa - cafe,2,1.1 m,110.0 kg,sacapecho
 deino,633,siniestro,dragon,5,negro - azul,1,0.6 m,17.3 kg,entusiasmo
-zweilous,634,siniestro,dragon,5,negro - azul,2,1.4 m,32.0 kg,entusiasmo
 hydreigon,635,siniestro,dragon,5,negro - azul,3,1.8 m,160.0 kg,levitacion
 larvesta,636,bicho,fuego,5,blanco - rojo,1,0.3 m,10.5 kg,cuerpo llama
 volcarona,637,bicho,fuego,5,blanco - rojo,2,1.5 m,59.0 kg,cuerpo llama
 cobalion,638,acero,lucha,5,azul,1,2.0 m,250.0 kg,puño ferreo
-virizion,640,planta,lucha,5,verde,1,3.6 m,200.0 kg,justiciero
 tornadus,641,volador,ninguno,5,verde - morado,1,1.5 m,63.0 kg,bromista
 thundurus,642,electrico,volador,5,azul - negro,1,1.0 m,61.0 kg,regeneracion
 reshiram,643,dragon,fuego,5,blanco,1,3.2 m,120.0 kg,presion
